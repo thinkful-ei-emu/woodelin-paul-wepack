@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/thinkful-ei-emu/woodelin-paul-wepack/issues"
   },
-  "homepage": "https://github.com/thinkful-ei-emu/woodelin-paul-wepack#readme"
+  "homepage": "https://github.com/thinkful-ei-emu/woodelin-paul-wepack#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
 }
