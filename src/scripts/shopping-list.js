@@ -2,7 +2,10 @@
 /* global store, cuid */
 
 // eslint-disable-next-line no-unused-vars
-const shoppingList = (function(){
+
+import $ from 'jquery';
+import cuid from 'cuid';
+import store from './index';
 
   function generateItemElement(item) {
     let itemTitle = `<span class="shopping-item shopping-item__checked">${item.name}</span>`;
@@ -156,8 +159,8 @@ const shoppingList = (function(){
   }
 
   // This object contains the only exposed methods from this module:
-  return {
+  export default {
     render,
     bindEventListeners
   };
-}());
+

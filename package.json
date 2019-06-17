@@ -4,7 +4,8 @@
   "description": "Created for the Thinkful EI Program.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/thinkful-ei-emu/woodelin-paul-wepack#readme",
   "dependencies": {
+    "cuid": "^2.1.6",
     "jquery": "^3.4.1"
   },
   "devDependencies": {
